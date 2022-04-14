@@ -1,0 +1,74 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+*{
+  box-sizing: border-box;}
+
+.container{
+  color: red;
+  width: 1000px;
+  height:800px;
+  background: rgba(0, 0, 0, 0.7);
+margin:auto;
+
+}
+
+#logo {
+  background: rgba(0, 0, 0, 0.0);
+  width: 250px;
+  height: 180px;
+  margin:0 auto;
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 13px;
+}
+
+.title {
+  color: rgb(102,255,51);
+  text-align:center;
+}
+
+.nav {
+background-color: rgb(102,255,51);
+padding: 4px;
+margin-left: 40px;
+margin-right: 40px;
+justify-content: center;
+display: flex;
+}
+
+.text1 {font-size: 30px;
+  color: white;
+  font-weight: bold;;
+margin-left: 40px;
+margin-top: 30px;
+}
+
+.text2 {font-size: 20px;
+  color: white;
+margin-left: 40px;
+}
+
+.yellow {background-color: yellow;
+padding: 4px;
+height: 30px;
+margin-left: 40px;
+margin-right: 600px;}
+
+.green {background-color: green;
+background-size: 80px;
+height: 30px;
+padding: 1px;
+margin-left: 40px;
+margin-right: 400px;}
+
+.red {background-color: red;
+height: 30px;
+padding: 4px;
+margin-left: 40px;
+margin-right: 800px;
+}
